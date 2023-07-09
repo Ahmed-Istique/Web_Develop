@@ -12,9 +12,11 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.head_greeting{
+
+.head_greeting {
     margin-top: 0px;
 }
+
 nav {
     display: flex;
     /* flex will bring the content in one line */
@@ -30,7 +32,8 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-.bannerdescription{
+
+.bannerdescription {
     width: 80%;
 }
 
@@ -118,4 +121,56 @@ nav li {
     font-weight: 700;
     cursor: pointer;
     margin: 10px;
+}
+
+/* heading ends here */
+
+/* main sections styles starts here */
+main{
+max-width: 1140px;
+margin: 0 auto;
+}
+.about_me {
+    padding: 130px 156px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0; 
+    /* align at the center part  */
+    text-align: center;
+}
+
+.about_me:hover {
+    /* background-color: black; */
+
+}
+
+.description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+.tagline{
+    color: #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+/* info_box starts  */
+.about_info_box{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.info_title{
+    color: #757575;
+}
+.skill{
+    display: flex;
+    margin: 0px 0 20px 0 ;
 }
