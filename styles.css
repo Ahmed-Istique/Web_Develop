@@ -1,0 +1,111 @@
+/* baisc CSS for the code   */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* head part here */
+
+.head {
+    width: 100%;
+    background-color: #FFF8F3;
+}
+
+nav {
+    display: flex;
+    /* flex will bring the content in one line */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
+
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+/* banner part image adding */
+#image_hardy {
+    width: 584px;
+}
+
+.web_title {
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.primary_text {
+    color: #FD6E0A;
+    font-style: bold;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+/* alt+shift+f = for formating the code */
+.primary_btn {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFF;
+    border: 0;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 35px 19px 36px;
+    cursor: pointer;
+
+}
+
+.primary_btn:hover {
+    background-color: #FFA41B
+}
+
+.downloadCV_btn:hover {
+    background-color: #FFA41B
+}
+
+.downloadCV_btn {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFF;
+    border: 0;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Contact_btn:hover {
+    background-color: #FD6E0A;
+    color: #FFF;
+    border: none;
+}
+
+.Contact_btn {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px;
+}
+
