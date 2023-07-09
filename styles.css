@@ -203,6 +203,7 @@ main {
 /* skills related styles ends */
 .summery {
     display: flex;
+    gap: 50px;
 }
 
 
@@ -238,4 +239,9 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+}
+
+.download_CV{
+    text-align: center;
+    margin-top: 50px;
 }
